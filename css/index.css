@@ -16,6 +16,7 @@
     font-size: 0;
     line-height: 30px;
     color: #666;
+    height: 30px;
 }
 .welcome span, .welcome a {
     font-size: 12px;
@@ -52,3 +53,38 @@
     border: 0;
 }
 /* 导航栏end */
+
+/* 头部start */
+.header {
+    height: 100px;
+    background-color: rgb(193, 238, 245);
+}
+.header .container {
+    height: 100px;
+    /* overflow: hidden; */
+}
+.header .logo {
+    margin-top: 26px;
+}
+.header img {
+    width: 90px;
+}
+.header .search form {
+    font-size: 0;
+    margin-top: 37.5px;
+}
+.header .search input{
+    width: 250px;
+    height: 25px;
+    border: 1px solid rgb(72, 167, 208);
+}
+.header .search button {
+    width: 40px;
+    height: 27px;
+    vertical-align: top;
+    background-color: rgb(72, 167, 208);
+    background-image: url('../images/assets/serch_icon.png');
+    background-repeat: no-repeat;
+    background-position: 8px 1.5px;
+}
+/* 头部end */
