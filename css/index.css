@@ -120,7 +120,7 @@
 .content .side-nav {
     height: 400px;
     width: 200px;
-    background-color: rgb(211, 221, 218);
+    background-color: rgb(222, 248, 249);
     position: relative;
 }
 .content .side-nav li {
@@ -142,7 +142,7 @@
 .content .side-nav div {
     width: 420px;
     height: 400px;
-    background-color: #efecec;
+    background-color: rgb(234, 248, 248);
     position: absolute;
     left: 200px;
     top:0;
@@ -265,3 +265,38 @@
     background-position: -145px -97px;
 }
 /* #endregion内容 */
+
+/* #region页脚 */
+.footer {
+    margin-top: 10px;
+    height: 200px;
+    background-color: rgb(230, 242, 235);
+}
+
+.footer .item {
+    height: 100px;
+    width: 235px;
+    float: left;
+    margin: 15px 10px;
+    padding: 0 20px;
+}
+.footer .item a {
+    color: rgb(49, 102, 102);
+    font-size: 12px;
+}
+.line {
+    border: 1px solid rgb(147, 199, 147);
+}
+.bottom-links {
+    text-align: center;
+}
+.bottom-links ul {
+    display: inline-block;
+    overflow: hidden;
+}
+.bottom-links ul li {
+    float: left;
+    margin: 0 15px;
+    margin-top: 20px;
+}
+/* #endregion页脚 */
