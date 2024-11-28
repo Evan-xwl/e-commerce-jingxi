@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-/* 导航栏start */
+/* #region导航栏start */
 .topbar {
     height: 30px;
     background-color: #ECECEC;
@@ -52,12 +52,11 @@
     padding-right: 0;
     border: 0;
 }
-/* 导航栏end */
+/* #endregion导航栏end */
 
-/* 头部start */
+/* #region头部start */
 .header {
     height: 100px;
-    background-color: rgb(193, 238, 245);
 }
 .header .container {
     height: 100px;
@@ -87,4 +86,182 @@
     background-repeat: no-repeat;
     background-position: 8px 1.5px;
 }
-/* 头部end */
+/* #endregion头部end */
+
+/* #region主导航start */
+.main-bar {
+    height: 48px;
+    border-bottom: 1px solid rgb(122, 221, 234);
+}
+.main-bar .all-types {
+    width: 200px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    background-color: rgb(72, 167, 208);
+}
+
+.main-bar ul li {
+    float: left;
+    line-height: 48px;
+}
+.main-bar ul li a {
+    margin: 0 15px;
+    font-weight: bold;
+}
+/* #endregion主导航end */
+
+/* #region内容 */
+.content {
+    height: 400px;
+    margin-top: 6px;
+}
+.content .side-nav {
+    height: 400px;
+    width: 200px;
+    background-color: rgb(211, 221, 218);
+    position: relative;
+}
+.content .side-nav li {
+    height: 28px;
+    line-height: 28px;
+}
+.content .side-nav li:hover{
+    background-color: rgb(72, 167, 208);
+}
+.content .side-nav li>a{
+    margin-left: 40px;
+}
+.content .side-nav li:hover>a{
+    color: white;
+}
+.content .side-nav li:hover div{
+    display: block;
+}
+.content .side-nav div {
+    width: 420px;
+    height: 400px;
+    background-color: #efecec;
+    position: absolute;
+    left: 200px;
+    top:0;
+    font-size: 12px;
+    padding-left: 15px;
+    display: none;
+}
+.content .side-nav dt {
+    float: left;
+    font-weight: bold;
+    width: 60px;
+}
+
+.content .side-nav dd {
+    float: left;
+}
+.content .side-nav dd a{
+    padding: 0 8px;
+    border-left: solid 1px #bebcbc;
+}
+
+.content .banner {
+    height: 400px;
+    width: 430px;
+    margin: 0 5px;
+    background-color: rgb(168, 179, 169);
+}
+.content .banner img {
+    height: 400px;
+    width: 430px;
+}
+
+.content .side-others {
+    height: 400px;
+    width: 250px;
+}
+.content .side-others .message {
+    height: 148px;
+    width: 218px;
+    border: 1px solid rgb(219, 165, 126);
+    padding: 0 15px;
+}
+.content .side-others .message .title{
+    height: 37px;
+    line-height: 37px;
+    border-bottom: 1px solid rgb(241, 217, 186);
+}
+.content .side-others .message span{
+    font-size: 14px;
+}
+.content .side-others .message a{
+    font-size: 12px;
+}
+.content .side-others .msg-list li{
+    height: 27px;
+    line-height: 27px;
+}
+.content .side-others .card-nav {
+    width: 250px;
+    height: 240px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.card-nav ul li {
+    float: left;
+    width: 48px;
+    height: 70px;
+    margin: 0 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.card-nav ul li:first-child {
+    margin-left: 14px;
+}
+.card-nav ul:first-child {
+    margin-top: 6px;
+}
+.card-nav ul:nth-child(2) {
+    margin: 8px 0;
+}
+.card-nav ul .pic {
+    width: 48px;
+    height: 48px;
+    background-image: url(../images/assets/精灵图-侧边功能.png);
+}
+#pic1 {
+    background-position: -1px 0;
+}
+#pic2 {
+    background-position: -49px 0;
+}
+#pic3 {
+    background-position: -97px 0;
+}
+#pic4 {
+    background-position: -145px 0;
+}
+#pic5 {
+    background-position: -1px -49px;
+}
+#pic6 {
+    background-position: -49px -49px;
+}
+#pic7 {
+    background-position: -97px -49px;
+}
+#pic8 {
+    background-position: -145px -49px;
+}
+#pic9 {
+    background-position: -1px -97px;
+}
+#pic10 {
+    background-position: -49px -97px;
+}
+#pic11 {
+    background-position: -97px -97px;
+}
+#pic12 {
+    background-position: -145px -97px;
+}
+/* #endregion内容 */
